@@ -7,3 +7,8 @@ type Message struct {
 	MessageSubject string
 	Message        string
 }
+
+type MessagePush struct {
+	MessageSubject string
+	Message        string
+}
