@@ -1,9 +1,9 @@
 package push
 
 import (
-	models "notifier/pkg/models"
+	dto "notifier/pkg/dto"
 )
 
 type IConnection interface {
-	SendMessage(models.Message) (err error)
+	SendMessage(dto.DTOMessagePush) (err error)
 }
